@@ -1,0 +1,112 @@
+:root{
+    --rosa: #e063e0;
+    --branco: #e6e0e0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos bases*/
+
+body{
+    background: var(--branco);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(202, 60, 167);
+    font-weight: bold;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    font-family: 'Patrick Hand', cursive;
+    color: var(--rosa);
+    font-size: 35px;
+    text-shadow: rgb(88, 2, 67) 0.1em 0.1em 0.2em
+}
+
+header nav a{    
+    text-decoration: none;
+    color: rgb(51, 49, 49);
+    margin-right: 20px;
+
+}
+
+header nav a:hover{
+    color: blueviolet;
+}
+
+/*Série principal*/
+
+.serie-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(51, 49, 51, 0.5),rgba(51, 49, 51, 0.5)100%), url('/img/principal.jpg');
+    height: 400px;
+    background-size: cover;
+    text-shadow: -1px 0 rgb(202, 26, 202), 0 1px rgb(133, 8, 91);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sinopse{
+    text-shadow: 0 0 0.2em rgb(15, 15, 15), 0 0 0.2em rgb(100, 90, 98), 0 0 0.2em rgb(152, 142, 206);
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'calibri';
+}
+
+.botao{
+    background-color: rgba(98, 132, 196, 0.5);
+    border: none;
+    color: rgb(201, 40, 179); 
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+    cursor: pointer;
+    transition: .3s ease all;
+    margin-left: 20px;
+}
+
+.botao:hover{
+    background:lavenderblush;
+    color:rgb(88, 2, 67);
+}
+
+.botao i{
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.serie-principal .container{
+    width: 60%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.carrosel-series{
+    margin-top: 5px;
+}
