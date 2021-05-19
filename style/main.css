@@ -110,3 +110,29 @@ header nav a:hover{
 .carrosel-series{
     margin-top: 5px;
 }
+
+.outrobotao{
+    background-color: rgba(98, 132, 196, 0.5);
+    border: none;
+    color: rgb(201, 40, 179); 
+    padding: 10px;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+    cursor: pointer;
+    transition: .3s ease all;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.outrobotao:hover{
+    background:lavenderblush;
+    color:rgb(88, 2, 67);
+}
+
+.botaoadicional{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 239px;
+}
